@@ -1,10 +1,10 @@
 ### [Back](README.md)
 # References
 
-#### [Hardening Kubernetes from Scratch](https://github.com/hardening-kubernetes/from-scratch) \
-#### [Kubernetes pentesting, hardening and hunting tools](https://github.com/SunWeb3Sec/Kubernetes-security) \
-#### [Certified Kubernetes Security Specialist - CKS](https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist) \
-#### [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) \
+#### [Hardening Kubernetes from Scratch](https://github.com/hardening-kubernetes/from-scratch)
+#### [Kubernetes pentesting, hardening and hunting tools](https://github.com/SunWeb3Sec/Kubernetes-security)
+#### [Certified Kubernetes Security Specialist - CKS](https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist)
+#### [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 #### [command line tool and a Go package to audit Kubernetes clusters for various different security concerns](https://github.com/Shopify/kubeaudit)
 
 ## Certification pathways
