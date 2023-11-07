@@ -52,8 +52,10 @@ spec:
     Handy site collects together articles, tools and the official documentation all in one place
     Simplify Kubernetes Resource Access Control using RBAC Impersonation
 
-
+### Disable and avoid insecure defaults
 #### [disable defaults](https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/#use-the-default-service-account-to-access-the-api-server) & minimize permissions on newly created ones
     Exercise caution in using service accounts e.g.
     Opt out of automounting API credentials for a service account
 
+### Ensure immutability of containers at runtime
+[Principles of Container-based Application Design](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/)

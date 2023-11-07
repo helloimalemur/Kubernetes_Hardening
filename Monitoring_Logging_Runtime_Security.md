@@ -22,3 +22,10 @@
 #### [Sysdig documentation](https://docs.sysdig.com/)
 #### [Monitoring Kubernetes with sysdig](https://kubernetes.io/blog/2015/11/monitoring-kubernetes-with-sysdig/)
 #### [CNCF Webinar: Getting started with container runtime security using Falco](https://youtu.be/VEFaGjfjfyc)
+
+
+### Ensure immutability of containers at runtime
+[Principles of Container-based Application Design](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/)
+
+### Use Audit Logs to monitor access
+[Auditing](https://kubernetes.io/docs/tasks/debug/debug-cluster/audit/)
