@@ -3,8 +3,10 @@
 
 #### [Update Kubernetes frequently](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/)
 #### [Pod Security Policies /Pod Security Admission](https://kubernetes.io/docs/concepts/security/pod-security-admission/)
+### Minimize Security Access - Minimize external access to the kubernetes API and network.
 #### [Restrict access to Kubernetes API](https://kubernetes.io/docs/reference/access-authn-authz/controlling-access/)
 #### [Control anonymous requests to Kube-apiserver](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#anonymous-requests)
+#### [Enable Access authentication and authorization](https://kubernetes.io/docs/reference/access-authn-authz/authentication/)
     ~~In Kubernetes 1.6+ anonymous requests are enabled by default.~~
     
     Kubernetes assumes that a cluster-independent service manages user authentication.
@@ -18,7 +20,7 @@
 
 #### [Controlling Access to the Kubernetes API](https://kubernetes.io/docs/concepts/security/controlling-access/#api-server-ports-and-ips)
 
-### **Example**:
+### **Example Network Policy**:
 #### Deny all egress and Deny all ingress, with one ingress port opened for NodePort 37080 for service with label selector "drone: server"
 ```yaml
 apiVersion: networking.k8s.io/v1
