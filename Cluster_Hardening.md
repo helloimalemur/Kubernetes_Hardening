@@ -2,7 +2,7 @@
 ## Cluster Hardening
 
 #### [Update Kubernetes frequently](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/)
-
+#### [Pod Security Policies /Pod Security Admission](https://kubernetes.io/docs/concepts/security/pod-security-admission/)
 #### [Restrict access to Kubernetes API](https://kubernetes.io/docs/reference/access-authn-authz/controlling-access/)
 #### [Control anonymous requests to Kube-apiserver](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#anonymous-requests)
     ~~In Kubernetes 1.6+ anonymous requests are enabled by default.~~
