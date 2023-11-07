@@ -30,7 +30,10 @@ Setup appropriate OS-level security domains e.g. using PSA, OPA, security contex
     
     readOnlyRootFilesystem --  Mounts the container's root filesystem as read-only.
 
-#### [Manage kubernetes secrets]()
+#### [Manage kubernetes secrets](https://kubernetes.io/docs/concepts/configuration/secret/)
 
     Use container runtime sandboxes in multi-tenant environments (e.g. gvisor, kata containers)
     Implement pod to pod encryption by use of mTLS
+
+#### [Implement pod to pod encryption by use of mTLS](https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/)
+
