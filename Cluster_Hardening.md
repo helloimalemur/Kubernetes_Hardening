@@ -3,8 +3,6 @@
 
 #### [Update Kubernetes frequently](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm-upgrade/)
 #### [Pod Security Policies /Pod Security Admission](https://kubernetes.io/docs/concepts/security/pod-security-admission/)
-### Minimize Security Access - Minimize external access to the kubernetes API and network.
-#### [Restrict access to Kubernetes API](https://kubernetes.io/docs/reference/access-authn-authz/controlling-access/)
 #### [Control anonymous requests to Kube-apiserver](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#anonymous-requests)
 #### [Enable Access authentication and authorization](https://kubernetes.io/docs/reference/access-authn-authz/authentication/)
     ~~In Kubernetes 1.6+ anonymous requests are enabled by default.~~
@@ -62,3 +60,6 @@ spec:
 
 ### Ensure immutability of containers at runtime
 #### [Principles of Container-based Application Design](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/)
+
+
+#### securityContext
